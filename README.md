@@ -2,7 +2,8 @@
 
 List of Awesome Red Team / Red Teaming Resources
 
-This list is for anyone wishing to learn about Red Teaming but do not have a starting point.
+This list is for anyone wishing to learn about Red Teaming but do not have a starting point. 
+
 此列表适用于任何希望了解 Red Teaming 但没有起点的人。
 
 
@@ -34,53 +35,53 @@ Table of Contents 目录
  
  
 ## [↑](#table-of-contents) Initial Access 初始访问-获得进入目标的入口
-* [How To: Empire’s Cross Platform Office Macro](https://www.blackhillsinfosec.com/empires-cross-platform-office-macro/)
-* [Phishing with PowerPoint](https://www.blackhillsinfosec.com/phishing-with-powerpoint/)
-* [PHISHING WITH EMPIRE](https://enigma0x3.net/2016/03/15/phishing-with-empire/)
-* [Bash Bunny](https://hakshop.com/products/bash-bunny)
-* [OWASP Presentation of Social Engineering - OWASP](https://www.owasp.org/images/5/54/Presentation_Social_Engineering.pdf)
+* [How To: Empire’s Cross Platform Office Macro 使用Empire生产跨平台的Office宏](https://www.blackhillsinfosec.com/empires-cross-platform-office-macro/)
+* [Phishing with PowerPoint PPT钓鱼](https://www.blackhillsinfosec.com/phishing-with-powerpoint/)
+* [PHISHING WITH EMPIRE 使用EMPIRE钓鱼](https://enigma0x3.net/2016/03/15/phishing-with-empire/)
+* [Bash Bunny USB攻击设备](https://hakshop.com/products/bash-bunny)
+* [OWASP Presentation of Social Engineering - OWASP 社会工程学介绍](https://www.owasp.org/images/5/54/Presentation_Social_Engineering.pdf)
 * [USB Drop Attacks: The Danger of “Lost And Found” Thumb Drives](https://www.redteamsecure.com/usb-drop-attacks-the-danger-of-lost-and-found-thumb-drives/)
 * [Weaponizing data science for social engineering: Automated E2E spear phishing on Twitter - Defcon 23](https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Seymour-Tully-Weaponizing-Data-Science-For-Social-Engineering-WP.pdf)
-* [Cobalt Strike - Spear Phishing documentation](https://www.cobaltstrike.com/help-spear-phish)
-* [Cobalt Strike Blog - What's the go-to phishing technique or exploit?](https://blog.cobaltstrike.com/2014/12/17/whats-the-go-to-phishing-technique-or-exploit/)
-* [Spear phishing with Cobalt Strike - Raphael Mudge](https://www.youtube.com/watch?v=V7UJjVcq2Ao)
-* [EMAIL RECONNAISSANCE AND PHISHING TEMPLATE GENERATION MADE SIMPLE](https://cybersyndicates.com/2016/05/email-reconnaissance-phishing-template-generation-made-simple/)
-* [Phishing for access](http://www.rvrsh3ll.net/blog/phishing/phishing-for-access/)
-* [Excel macros with PowerShell](https://4sysops.com/archives/excel-macros-with-powershell/)
-* [PowerPoint and Custom Actions](https://phishme.com/powerpoint-and-custom-actions/)
-* [Macro-less Code Exec in MSWord](https://sensepost.com/blog/2017/macro-less-code-exec-in-msword/)
-* [Multi-Platform Macro Phishing Payloads](https://medium.com/@malcomvetter/multi-platform-macro-phishing-payloads-3b688e8eff68)
-* [Abusing Microsoft Word Features for Phishing: “subDoc”](https://rhinosecuritylabs.com/research/abusing-microsoft-word-features-phishing-subdoc/)
-* [Phishing Against Protected View](https://enigma0x3.net/2017/07/13/phishing-against-protected-view/)
-* [POWERSHELL EMPIRE STAGERS 1: PHISHING WITH AN OFFICE MACRO AND EVADING AVS](https://fzuckerman.wordpress.com/2016/10/06/powershell-empire-stagers-1-phishing-with-an-office-macro-and-evading-avs/)
-* [The PlugBot: Hardware Botnet Research Project](https://www.redteamsecure.com/the-plugbot-hardware-botnet-research-project/)
-* [Luckystrike: An Evil Office Document Generator](https://www.shellntel.com/blog/2016/9/13/luckystrike-a-database-backed-evil-macro-generator)
-* [The Absurdly Underestimated Dangers of CSV Injection](http://georgemauer.net/2017/10/07/csv-injection.html)
+* [Cobalt Strike - Spear Phishing documentation Cobalt Strike钓鱼文档](https://www.cobaltstrike.com/help-spear-phish)
+* [Cobalt Strike Blog - What's the go-to phishing technique or exploit? 通过漏洞还技术进行钓鱼](https://blog.cobaltstrike.com/2014/12/17/whats-the-go-to-phishing-technique-or-exploit/)
+* [Spear phishing with Cobalt Strike - Raphael Mudge 鱼叉式网络钓鱼](https://www.youtube.com/watch?v=V7UJjVcq2Ao)
+* [EMAIL RECONNAISSANCE AND PHISHING TEMPLATE GENERATION MADE SIMPLE 钓鱼邮件模板制作](https://cybersyndicates.com/2016/05/email-reconnaissance-phishing-template-generation-made-simple/)
+* [Phishing for access 初始钓鱼](http://www.rvrsh3ll.net/blog/phishing/phishing-for-access/)
+* [Excel macros with PowerShell Excel宏与PowerShell](https://4sysops.com/archives/excel-macros-with-powershell/)
+* [PowerPoint and Custom Actions PPT钓鱼](https://phishme.com/powerpoint-and-custom-actions/)
+* [Macro-less Code Exec in MSWord 不实用宏利用MSWord执行代码](https://sensepost.com/blog/2017/macro-less-code-exec-in-msword/)
+* [Multi-Platform Macro Phishing Payloads 跨平台钓鱼宏攻击载核](https://medium.com/@malcomvetter/multi-platform-macro-phishing-payloads-3b688e8eff68)
+* [Abusing Microsoft Word Features for Phishing: “subDoc” 滥用Word的subDoc进行钓鱼](https://rhinosecuritylabs.com/research/abusing-microsoft-word-features-phishing-subdoc/)
+* [Phishing Against Protected View 针对受保护视图的钓鱼](https://enigma0x3.net/2017/07/13/phishing-against-protected-view/)
+* [POWERSHELL EMPIRE STAGERS 1: PHISHING WITH AN OFFICE MACRO AND EVADING AVS 使用Empire绕过防护进行钓鱼](https://fzuckerman.wordpress.com/2016/10/06/powershell-empire-stagers-1-phishing-with-an-office-macro-and-evading-avs/)
+* [The PlugBot: Hardware Botnet Research Project 硬件僵尸网络研究项目](https://www.redteamsecure.com/the-plugbot-hardware-botnet-research-project/)
+* [Luckystrike: An Evil Office Document Generator 一个恶意office文章生成工具](https://www.shellntel.com/blog/2016/9/13/luckystrike-a-database-backed-evil-macro-generator)
+* [The Absurdly Underestimated Dangers of CSV Injection 被低估的CSV注入](http://georgemauer.net/2017/10/07/csv-injection.html)
 * [Macroless DOC malware that avoids detection with Yara rule](https://furoner.wordpress.com/2017/10/17/macroless-malware-that-avoids-detection-with-yara-rule/amp/)
-* [Phishing between the app whitelists](https://medium.com/@vivami/phishing-between-the-app-whitelists-1b7dcdab4279)
+* [Phishing between the app whitelists 利用app白名单进行钓鱼](https://medium.com/@vivami/phishing-between-the-app-whitelists-1b7dcdab4279)
 * [Executing Metasploit & Empire Payloads from MS Office Document Properties (part 1 of 2)](https://stealingthe.network/executing-metasploit-empire-payloads-from-ms-office-document-properties-part-1-of-2/)
 * [Executing Metasploit & Empire Payloads from MS Office Document Properties (part 2 of 2)](https://stealingthe.network/executing-metasploit-empire-payloads-from-ms-office-document-properties-part-2-of-2/)
-* [Social Engineer Portal](https://www.social-engineer.org/)
-* [7 Best social Engineering attack](http://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411)
+* [Social Engineer Portal 社会工程学门户网站](https://www.social-engineer.org/)
+* [7 Best social Engineering attack 7个最好的社工方法](http://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411)
 * [Using Social Engineering Tactics For Big Data Espionage - RSA Conference Europe 2012](https://www.rsaconference.com/writable/presentations/file_upload/das-301_williams_rader.pdf)
-* [USING THE DDE ATTACK WITH POWERSHELL EMPIRE](https://1337red.wordpress.com/using-the-dde-attack-with-powershell-empire/)
-* [Phishing on Twitter - POT](https://www.kitploit.com/2018/02/pot-phishing-on-twitter.html)
-* [Microsoft Office – NTLM Hashes via Frameset](https://pentestlab.blog/2017/12/18/microsoft-office-ntlm-hashes-via-frameset/)
-* [Defense-In-Depth write-up](https://oddvar.moe/2017/09/13/defense-in-depth-writeup/)
-* [Spear Phishing 101](https://blog.inspired-sec.com/archive/2017/05/07/Phishing.html)
+* [USING THE DDE ATTACK WITH POWERSHELL EMPIRE 使用Empire 和Powershell进行DDE攻击](https://1337red.wordpress.com/using-the-dde-attack-with-powershell-empire/)
+* [Phishing on Twitter - POT 在推特进行钓鱼](https://www.kitploit.com/2018/02/pot-phishing-on-twitter.html)
+* [Microsoft Office – NTLM Hashes via Frameset 使用Office获取NTLM哈希工具](https://pentestlab.blog/2017/12/18/microsoft-office-ntlm-hashes-via-frameset/)
+* [Defense-In-Depth write-up 纵深防御笔记](https://oddvar.moe/2017/09/13/defense-in-depth-writeup/)
+* [Spear Phishing 101 ](https://blog.inspired-sec.com/archive/2017/05/07/Phishing.html)
 
  
 ## [↑](#table-of-contents) Execution 使用各种奇技淫巧执行攻击载核
-* [Research on CMSTP.exe,](https://msitpros.com/?p=3960)
-* [Windows oneliners to download remote payload and execute arbitrary code](https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/)
-* [Executing Commands and Bypassing AppLocker with PowerShell Diagnostic Scripts](https://bohops.com/2017/12/02/clickonce-twice-or-thrice-a-technique-for-social-engineering-and-untrusted-command-execution/)
-* [WSH Injection: A Case Study](https://posts.specterops.io/wsh-injection-a-case-study-fd35f79d29dd)
+* [Research on CMSTP.exe 对CMSTP.exe的探索](https://msitpros.com/?p=3960)
+* [Windows oneliners to download remote payload and execute arbitrary code 一条命令下载并执行任意命令](https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/)
+* [Executing Commands and Bypassing AppLocker with PowerShell Diagnostic Scripts 使用Powershell诊断脚本绕过UAC执行任意命令](https://bohops.com/2017/12/02/clickonce-twice-or-thrice-a-technique-for-social-engineering-and-untrusted-command-execution/)
+* [WSH Injection: A Case Study WSH注入案例研究](https://posts.specterops.io/wsh-injection-a-case-study-fd35f79d29dd)
 * [Gscript Dropper](http://lockboxx.blogspot.com/2018/02/intro-to-using-gscript-for-red-teams.html)
 
  
-## [↑](#table-of-contents) Persistence 维持权限/访问
-* [A View of Persistence](https://rastamouse.me/2018/03/a-view-of-persistence/)
-* [hiding registry keys with psreflect](https://posts.specterops.io/hiding-registry-keys-with-psreflect-b18ec5ac8353)
+## [↑](#table-of-contents) Persistence 维持权限/持久访问
+* [A View of Persistence 持久访问](https://rastamouse.me/2018/03/a-view-of-persistence/)
+* [hiding registry keys with psreflect 使用psreflect隐藏注册表键值](https://posts.specterops.io/hiding-registry-keys-with-psreflect-b18ec5ac8353)
 * [Persistence using RunOnceEx – Hidden from Autoruns.exe](https://oddvar.moe/2018/03/21/persistence-using-runonceex-hidden-from-autoruns-exe/)
 * [Persistence using GlobalFlags in Image File Execution Options – Hidden from Autoruns.exe](https://oddvar.moe/2018/04/10/persistence-using-globalflags-in-image-file-execution-options-hidden-from-autoruns-exe/)
 * [Putting data in Alternate data streams and how to execute it – part 2](https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/)
