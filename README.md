@@ -3,35 +3,37 @@
 List of Awesome Red Team / Red Teaming Resources
 
 This list is for anyone wishing to learn about Red Teaming but do not have a starting point.
+此列表适用于任何希望了解 Red Teaming 但没有起点的人。
+
 
 Anyway, this is a living resources and will update regularly with latest Adversarial Tactics and Techniques based on [Mitre ATT&CK](https://attack.mitre.org/wiki/Main_Page)
 
 You can help by sending Pull Requests to add more information.
 
 
-Table of Contents
+Table of Contents 目录
 =================
 
- * [Initial Access](#-initial-access)
- * [Execution](#-execution)
- * [Persistence](#-persistence)
- * [Privilege Escalation](#-privilege-escalation)
- * [Defense Evasion](#-defense-evasion)
- * [Credential Access](#-credential-access)
- * [Discovery](#-discovery)
- * [Lateral Movement](#-lateral-movement)
- * [Collection](#-collection)
- * [Exfiltration](#-exfiltration)
- * [Command and Control](#-command-and-control)
- * [Embedded and Peripheral Devices Hacking](#-embedded-and-peripheral-devices-hacking)
- * [Misc](#-misc)
- * [RedTeam Gadgets](#-redteam-gadgets)
- * [Ebooks](#-ebooks)
- * [Training](#-training--free-)
- * [Certification](#-certification)
+ * [Initial Access 初始访问-获得进入目标的入口](#-initial-access)
+ * [Execution 执行攻击载核](#-execution)
+ * [Persistence 维持权限/访问](#-persistence)
+ * [Privilege Escalation 提升权限](#-privilege-escalation)
+ * [Defense Evasion 绕过绕过](#-defense-evasion)
+ * [Credential Access 获取凭证](#-credential-access)
+ * [Discovery 探索](#-discovery)
+ * [Lateral Movement 横向移动](#-lateral-movement)
+ * [Collection 收集信息](#-collection)
+ * [Exfiltration 渗出](#-exfiltration)
+ * [Command and Control 命令和控制](#-command-and-control)
+ * [Embedded and Peripheral Devices Hacking 攻击嵌入式和外围设备](#-embedded-and-peripheral-devices-hacking)
+ * [Misc 杂项](#-misc)
+ * [RedTeam Gadgets RedTeam小工具](#-redteam-gadgets)
+ * [Ebooks 电子书](#-ebooks)
+ * [Training 教程](#-training--free-)
+ * [Certification 认证](#-certification)
  
  
-## [↑](#table-of-contents) Initial Access
+## [↑](#table-of-contents) Initial Access 初始访问-获得进入目标的入口
 * [How To: Empire’s Cross Platform Office Macro](https://www.blackhillsinfosec.com/empires-cross-platform-office-macro/)
 * [Phishing with PowerPoint](https://www.blackhillsinfosec.com/phishing-with-powerpoint/)
 * [PHISHING WITH EMPIRE](https://enigma0x3.net/2016/03/15/phishing-with-empire/)
@@ -68,7 +70,7 @@ Table of Contents
 * [Spear Phishing 101](https://blog.inspired-sec.com/archive/2017/05/07/Phishing.html)
 
  
-## [↑](#table-of-contents) Execution 
+## [↑](#table-of-contents) Execution 使用各种奇技淫巧执行攻击载核
 * [Research on CMSTP.exe,](https://msitpros.com/?p=3960)
 * [Windows oneliners to download remote payload and execute arbitrary code](https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/)
 * [Executing Commands and Bypassing AppLocker with PowerShell Diagnostic Scripts](https://bohops.com/2017/12/02/clickonce-twice-or-thrice-a-technique-for-social-engineering-and-untrusted-command-execution/)
@@ -76,7 +78,7 @@ Table of Contents
 * [Gscript Dropper](http://lockboxx.blogspot.com/2018/02/intro-to-using-gscript-for-red-teams.html)
 
  
-## [↑](#table-of-contents) Persistence
+## [↑](#table-of-contents) Persistence 维持权限/访问
 * [A View of Persistence](https://rastamouse.me/2018/03/a-view-of-persistence/)
 * [hiding registry keys with psreflect](https://posts.specterops.io/hiding-registry-keys-with-psreflect-b18ec5ac8353)
 * [Persistence using RunOnceEx – Hidden from Autoruns.exe](https://oddvar.moe/2018/03/21/persistence-using-runonceex-hidden-from-autoruns-exe/)
@@ -87,9 +89,9 @@ Table of Contents
 * [Leveraging INF-SCT Fetch & Execute Techniques For Bypass, Evasion, & Persistence (Part 2)](https://bohops.com/2018/03/10/leveraging-inf-sct-fetch-execute-techniques-for-bypass-evasion-persistence-part-2/)
 * [Vshadow: Abusing the Volume Shadow Service for Evasion, Persistence, and Active Directory Database Extraction](https://bohops.com/2018/02/10/vshadow-abusing-the-volume-shadow-service-for-evasion-persistence-and-active-directory-database-extraction/)
  
-## [↑](#table-of-contents) Privilege Escalation
+## [↑](#table-of-contents) Privilege Escalation 提升权限
 
-### User Account Control Bypass
+### User Account Control Bypass 绕过UAC（用户账户控制）
 * [First entry: Welcome and fileless UAC bypass,](https://winscripting.blog/2017/05/12/first-entry-welcome-and-uac-bypass/)
 * [Exploiting Environment Variables in Scheduled Tasks for UAC Bypass,](https://tyranidslair.blogspot.ru/2017/05/exploiting-environment-variables-in.html)
 * Reading Your Way Around UAC in 3 parts:
@@ -106,12 +108,12 @@ Table of Contents
 * [Eventvwr File-less UAC Bypass CNA](https://www.mdsec.co.uk/2016/12/cna-eventvwr-uac-bypass/)
 * [Windows 7 UAC whitelist](http://www.pretentiousname.com/misc/win7_uac_whitelist2.html)
 
-### Escalation
+### Escalation 提升权限
 * [Windows Privilege Escalation Checklist](https://github.com/netbiosX/Checklists/blob/master/Windows-Privilege-Escalation.md)
 * [From Patch Tuesday to DA](https://blog.inspired-sec.com/archive/2017/03/17/COM-Moniker-Privesc.html)
 * [A Path for Privilege Escalation](https://blog.cobaltstrike.com/2016/12/08/cobalt-strike-3-6-a-path-for-privilege-escalation/)
 
-## [↑](#table-of-contents) Defense Evasion
+## [↑](#table-of-contents) Defense Evasionv 防御绕过
 * [Window 10 Device Guard Bypass](https://github.com/tyranid/DeviceGuardBypasses)
 * [App Locker ByPass List](https://github.com/api0cradle/UltimateAppLockerByPassList)
 * [Window Signed Binary](https://github.com/vysec/Windows-SignedBinary)
@@ -142,7 +144,7 @@ Table of Contents
 * [Executing Commands and Bypassing AppLocker with PowerShell Diagnostic Scripts](https://bohops.com/2018/01/07/executing-commands-and-bypassing-applocker-with-powershell-diagnostic-scripts/)
 * [mavinject.exe Functionality Deconstructed](https://posts.specterops.io/mavinject-exe-functionality-deconstructed-c29ab2cf5c0e)
   
-## [↑](#table-of-contents) Credential Access
+## [↑](#table-of-contents) Credential Access 获取凭证
 * [Windows Access Tokens and Alternate credentials](https://blog.cobaltstrike.com/2015/12/16/windows-access-tokens-and-alternate-credentials/)
 * [Bringing the hashes home with reGeorg & Empire](https://sensepost.com/blog/2016/bringing-the-hashes-home-with-regeorg-empire/)
 * [Intercepting passwords with Empire and winning](https://sensepost.com/blog/2016/intercepting-passwords-with-empire-and-winning/)
@@ -155,7 +157,7 @@ Table of Contents
 * [Dump Clear-Text Passwords for All Admins in the Domain Using Mimikatz DCSync](https://adsecurity.org/?p=2053)
 * [Dumping Domain Password Hashes](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
   
-## [↑](#table-of-contents) Discovery
+## [↑](#table-of-contents) Discovery 探索
 * [Red Team Operating in a Modern Environment](https://www.owasp.org/images/4/4b/Red_Team_Operating_in_a_Modern_Environment.pdf)
 * [My First Go with BloodHound](https://blog.cobaltstrike.com/2016/12/14/my-first-go-with-bloodhound/)
 * [Introducing BloodHound](https://wald0.com/?p=68)
@@ -174,7 +176,7 @@ Table of Contents
 * [Trust Direction: An Enabler for Active Directory Enumeration and Trust Exploitation](https://bohops.com/2017/12/02/trust-direction-an-enabler-for-active-directory-enumeration-and-trust-exploitation/)
 * [SPN Discovery](https://pentestlab.blog/2018/06/04/spn-discovery/)
    
-## [↑](#table-of-contents) Lateral Movement 
+## [↑](#table-of-contents) Lateral Movement 横向移动
 
 * [A Citrx Story](https://rastamouse.me/2017/05/a-citrix-story/)
 * [Jumping Network Segregation with RDP](https://rastamouse.me/2017/08/jumping-network-segregation-with-rdp/)
@@ -207,13 +209,13 @@ Table of Contents
 * [LethalHTA - A new lateral movement technique using DCOM and HTA](https://codewhitesec.blogspot.com/2018/07/lethalhta.html)
 * [Abusing DCOM For Yet Another Lateral Movement Technique](https://bohops.com/2018/04/28/abusing-dcom-for-yet-another-lateral-movement-technique/)
    
-## [↑](#table-of-contents) Collection  
+## [↑](#table-of-contents) Collection  信息收集
 * [Accessing clipboard from the lock screen in Windows 10 Part 1](https://oddvar.moe/2017/01/24/accessing-clipboard-from-the-lock-screen-in-windows-10/)
 * [Accessing clipboard from the lock screen in Windows 10 Part 2](https://oddvar.moe/2017/01/27/access-clipboard-from-lock-screen-in-windows-10-2/)
 
   
    
-## [↑](#table-of-contents) Exfiltration
+## [↑](#table-of-contents) Exfiltration 渗出
 * [DNS Data exfiltration — What is this and How to use?](https://blog.fosec.vn/dns-data-exfiltration-what-is-this-and-how-to-use-2f6c69998822)
 * [DNS Tunnelling](http://resources.infosecinstitute.com/dns-tunnelling/)
 * [sg1: swiss army knife for data encryption, exfiltration & covert communication](https://securityonline.info/sg1-swiss-army-knife-for-data-encryption-exfiltration-covert-communication/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
@@ -222,7 +224,7 @@ Table of Contents
 * [Data Exfiltration via Formula Injection Part1](https://www.notsosecure.com/data-exfiltration-formula-injection/)
 
 
-## [↑](#table-of-contents) Command and Control
+## [↑](#table-of-contents) Command and Control 命令和控制
 
 ### Domain Fronting
 * [Empre Domain Fronting](https://www.xorrior.com/Empire-Domain-Fronting/)
@@ -240,7 +242,7 @@ Table of Contents
 * [CloudFront Hijacking](https://www.mindpointgroup.com/blog/pen-test/cloudfront-hijacking/)
 * [CloudFrunt GitHub Repo](https://github.com/MindPointGroup/cloudfrunt)
 
-### Connection Proxy
+### Connection Proxy 访问代理
 * [Redirecting Cobalt Strike DNS Beacons](http://www.rvrsh3ll.net/blog/offensive/redirecting-cobalt-strike-dns-beacons/)
 * [Apache2Mod Rewrite Setup](https://github.com/n0pe-sled/Apache2-Mod-Rewrite-Setup)
 * [Cobalt Strike HTTP C2 Redirectors with Apache mod_rewrite](https://bluescreenofjeff.com/2016-06-28-cobalt-strike-http-c2-redirectors-with-apache-mod_rewrite/)
@@ -258,7 +260,7 @@ Table of Contents
 * [Expand Your Horizon Red Team – Modern SAAS C2](https://cybersyndicates.com/2017/04/expand-your-horizon-red-team/)
 * [RTOps: Automating Redirector Deployment With Ansible](http://threat.tevora.com/automating-redirector-deployment-with-ansible/)
 
-### Web Services
+### Web Services Web服务
 * [C2 with Dropbox](https://pentestlab.blog/2017/08/29/command-and-control-dropbox/)
 * [C2 with gmail](https://pentestlab.blog/2017/08/03/command-and-control-gmail/)
 * [C2 with twitter](https://pentestlab.blog/2017/09/26/command-and-control-twitter/)
@@ -273,7 +275,7 @@ Table of Contents
 * [Hiding in the Cloud: Cobalt Strike Beacon C2 using Amazon APIs](https://github.com/Und3rf10w/external_c2_framework)
 * [Exploring Cobalt Strike's ExternalC2 framework](https://blog.xpnsec.com/exploring-cobalt-strikes-externalc2-framework/)
 
-### Application Layer Protocol
+### Application Layer Protocol 应用层协议
 * [C2 WebSocket](https://pentestlab.blog/2017/12/06/command-and-control-websocket/)
 * [C2 WMI](https://pentestlab.blog/2017/11/20/command-and-control-wmi/)
 * [C2 Website](https://pentestlab.blog/2017/11/14/command-and-control-website/)
@@ -286,7 +288,7 @@ Table of Contents
 * [Introducing Merlin — A cross-platform post-exploitation HTTP/2 Command & Control Tool](https://medium.com/@Ne0nd0g/introducing-merlin-645da3c635a)
 * [InternetExplorer.Application for C2](https://adapt-and-attack.com/2017/12/19/internetexplorer-application-for-c2/)
 
-### Infrastructure
+### Infrastructure 基础设施
 * [Automated Red Team Infrastructure Deployment with Terraform - Part 1](https://rastamouse.me/2017/08/automated-red-team-infrastructure-deployment-with-terraform---part-1/)
 * [Automated Red Team Infrastructure Deployment with Terraform - Part 2](https://rastamouse.me/2017/09/automated-red-team-infrastructure-deployment-with-terraform---part-2/)
 * [Red Team Infrastructure - AWS Encrypted EBS](https://rastamouse.me/2018/02/red-team-infrastructure---aws-encrypted-ebs/)
@@ -313,7 +315,7 @@ Table of Contents
 * [Malleable Command and Control](https://www.cobaltstrike.com/help-malleable-c2)
 
 
-## [↑](#table-of-contents) Embedded and Peripheral Devices Hacking
+## [↑](#table-of-contents) Embedded and Peripheral Devices Hacking 攻击嵌入式和外围设备
 * [Gettting in with the Proxmark3 & ProxBrute](https://www.trustwave.com/Resources/SpiderLabs-Blog/Getting-in-with-the-Proxmark-3-and-ProxBrute/)
 * [Practical Guide to RFID Badge copying](https://blog.nviso.be/2017/01/11/a-practical-guide-to-rfid-badge-copying/)
 * [Contents of a Physical Pentester Backpack](https://www.tunnelsup.com/contents-of-a-physical-pen-testers-backpack/)
@@ -327,7 +329,7 @@ Table of Contents
 * [Android Open Pwn Project (AOPP)](https://www.pwnieexpress.com/aopp)
 
 
-## [↑](#table-of-contents) Misc
+## [↑](#table-of-contents) Misc 杂项
 * [Red Tips of Vysec](https://github.com/vysec/RedTips)
 * [Cobalt Strike Tips for 2016 ccde red teams](https://blog.cobaltstrike.com/2016/02/23/cobalt-strike-tips-for-2016-ccdc-red-teams/)
 * [Models for Red Team Operations](https://blog.cobaltstrike.com/2015/07/09/models-for-red-team-operations/)
@@ -341,45 +343,45 @@ Table of Contents
 * [Red Teaming for Pacific Rim CCDC 2016](https://bluescreenofjeff.com/2016-05-24-pacific-rim-ccdc_2016/)
 * [Responsible Red Teams](https://medium.com/@malcomvetter/responsible-red-teams-1c6209fd43cc)
 
-## [↑](#table-of-contents) RedTeam Gadgets
-#### Network Implants
+## [↑](#table-of-contents) RedTeam Gadgets RedTeam小工具
+#### Network Implants 网络植入物
 * [LAN Tap Pro](https://hackerwarehouse.com/product/lan-tap-pro/)
 * [Rubber Ducky](https://hakshop.com/collections/physical-access/products/usb-rubber-ducky-deluxe)
 * [LAN Turtle](https://hakshop.com/collections/network-implants/products/lan-turtle)
 * [Bash Bunny](https://hakshop.com/collections/physical-access/products/bash-bunny)
 * [PACKET SQUIRRE](https://hakshop.com/products/packet-squirrel)
-#### Wifi Auditing
+#### Wifi Auditing 无线网审计
 * [WiFi Pineapple](https://hakshop.com/products/wifi-pineapple)
 * [Alpha Long range Wireless USB](https://hackerwarehouse.com/product/alfa-802-11bgn-long-range-usb-wireless-adapter/)
 * [Wifi-Deauth Monster](https://www.tindie.com/products/lspoplove/dstike-wifi-deauther-monster/)
 * [Crazy PA](https://www.amazon.com/gp/product/B00VYA3A2U/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00VYA3A2U&linkCode=as2&tag=jrenard-20&linkId=f5ebfa29c33f2e99d2a8ff0c2c30c79b)
-#### IoT
+#### IoT 物联网
 * [BLE Key](https://hackerwarehouse.com/product/blekey/)
 * [Proxmark3](https://hackerwarehouse.com/product/proxmark3-kit/)
 * [Zigbee Sniffer](https://www.attify-store.com/products/zigbee-sniffing-tool-atmel-rzraven)
 * [Attify IoT Exploit kit](https://www.attify-store.com/collections/frontpage/products/jtag-exploitation-kit-with-lab-manual)
-#### Software Defined Radio - SDR
+#### Software Defined Radio - SDR 软件定义无线电
 * [HackRF One Bundle](https://hackerwarehouse.com/product/hackrf-one-kit/)
 * [RTL-SDR](https://hackerwarehouse.com/product/rtlsdr/)
 * [YARD stick one Bundle](https://hackerwarehouse.com/product/yard-stick-one-kit/)
 * [Ubertooth](https://hackerwarehouse.com/product/ubertooth-one/)
-#### Misc
+#### Misc 杂项
 * [Key Grabber](https://hackerwarehouse.com/product/keygrabber/)
 * [Magspoof](https://store.ryscc.com/products/magspoof%20)
 * [Poison tap](https://samy.pl/poisontap/)
 * [keysweeper](https://samy.pl/keysweeper/)
 
-## [↑](#table-of-contents) Ebooks
+## [↑](#table-of-contents) Ebooks 电子书
 * [Next Generation Red Teaming](https://www.amazon.com/Next-Generation-Teaming-Henry-Dalziel/dp/0128041714)
 * [Targeted Cyber Attack](https://www.amazon.com/Targeted-Cyber-Attacks-Multi-staged-Exploits/dp/0128006048)
 * [Advanced Penetration Testing: Hacking the World's Most Secure Networks](https://www.amazon.com/Advanced-Penetration-Testing-Hacking-Networks/dp/1119367689)
 * [Social Engieers' Playbook Pretical Pretexting](https://www.amazon.com/Social-Engineers-Playbook-Practical-Pretexting/dp/0692306617/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=talamantesus-20&linkId=37b63c7702c9be6b9f6a1b921c88c8cd)
 
-## [↑](#table-of-contents) Training ( Free )
+## [↑](#table-of-contents) Training ( Free ) 免费教程
 * [Tradecraft - a course on red team operations](https://www.youtube.com/watch?v=IRpS7oZ3z0o&list=PL9HO6M_MU2nesxSmhJjEvwLhUoHPHmXvz)
 * [Advanced Threat Tactics Course & Notes](https://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/)
 
-## [↑](#table-of-contents) Certification
+## [↑](#table-of-contents) Certification 认证
 * [CREST Certified Simulated Attack Specialist](http://www.crest-approved.org/examination/certified-simulated-attack-specialist/)
 * [CREST Certified Simulated Attack Manager](http://www.crest-approved.org/examination/certified-simulated-attack-manager/)
 * [SEC564: Red Team Operations and Threat Emulation](https://www.sans.org/course/red-team-operations-and-threat-emulation)
